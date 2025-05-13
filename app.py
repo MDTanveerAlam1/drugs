@@ -1,10 +1,10 @@
 # app.py
 
-''' import streamlit as st
+import streamlit as st
 import joblib
 import numpy as np
 from PIL import Image
-
+'''
 # Load the model, vectorizer, and label encoder
 model = joblib.load("condition_classifier_model.pkl")
 vectorizer = joblib.load("tfidf_vectorizer.pkl")

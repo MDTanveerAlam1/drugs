@@ -4,7 +4,7 @@ import streamlit as st
 import joblib
 import numpy as np
 from PIL import Image
-'''
+
 # Load the model, vectorizer, and label encoder
 model = joblib.load("condition_classifier_model.pkl")
 vectorizer = joblib.load("tfidf_vectorizer.pkl")
@@ -72,7 +72,7 @@ if st.button("🔍 Predict Condition"):
         """, unsafe_allow_html=True)
 
 # --- FOOTER ---
-st.markdown('<p class="footer">Made with ❤️ using Streamlit | Project: Drug Review NLP Classifier</p>', unsafe_allow_html=True)
+st.markdown('<p class="footer">Made by All Members | Project: Drug Review NLP Classifier</p>', unsafe_allow_html=True)
 '''
 
 
@@ -140,3 +140,4 @@ if st.button("Find Reviews"):
 
 # --- FOOTER ---
 st.markdown('<p class="footer">Made with ❤️ using Streamlit | Drug Review Explorer</p>', unsafe_allow_html=True)
+'''
